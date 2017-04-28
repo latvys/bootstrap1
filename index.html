@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home work 8</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Namų darbas nr. 8 -->
+
+    <div class="container">
+
+        <h1>Top 3 Front-End Frameworks</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-lg-4">Framework</th>
+                    <th class="col-lg-3">Pros</th>
+                    <th class="col-lg-3">Cons</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class=bootstrap-row>
+                    <td>
+                        <div class="name-icon">
+                            <img src="images/bootstrap-icon.png" alt="Bootstrap icon" class="icon-table">
+                            <span class="title">Bootstrap</span>
+                        </div>
+                        <p class="table-paragraph">This list would be woefully incomplete without the inclusion of the wildly popular front-end framework,
+                            Bootstrap. Created by Twitter developers and initially released in 2011, it’s the most used open-source
+                            framework in the world.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">Read more</button>
+                    </td>
+                    <td>
+                        <ul class="pros-list">
+                            <li>Responsive web design support (can also be disabled if required)</li>
+                            <li>Extensive documentation</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="cons-list">
+                            <li>Out-of-the-box file size of 276kB due to excessive number of rarely used styles</li>
+                            <li>Excessive number of HTML classes and DOM elements can be messy and confusing</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="pure-row">
+                    <td>
+                        <div class="name-icon">
+                            <img src="images/pure-icon.png" alt="Pure icon" class="icon-table">
+                            <span class="title">Pure</span>
+                        </div>
+                        <p class="table-paragraph">Created by the Yahoo development team, Pure comes with a lightweight array of CSS modules that can
+                            be used in just about any project. Using Pure, you can easily create responsive buttons, menus,
+                            grids, tables and other features. Because it is purely CSS based, however, it does not support
+                            JavaScript or JQuery plugins.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Read more</button>
+                    </td>
+                    <td>
+                        <ul class="pros-list">
+                            <li>Extremely lightweight, ensuring fast loading times even on mobile devices</li>
+                            <li>Flexible array of CSS modules can be used on just about any web design and development project</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="cons-list">
+                            <li>CSS only – does not include JQuery or JS plugins</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class=uikit-row>
+                    <td>
+                        <div class="name-icon">
+                            <img src="images/uikit-icon.png" alt="UIKit icon" class="icon-table">
+                            <span class="title">UIKit</span>
+                        </div>
+                        <p class="table-paragraph">UIKit is a highly modular front-end framework stands out among most front end development frameworks
+                            for many reasons. Chief among them is the fact that it includes both LESS and Sass CSS preprocessors.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Read more</button>
+                    </td>
+                    <td>
+                        <ul class="pros-list">
+                            <li>Highly customizable</li>
+                            <li>Exceptionally modular, so you can add components to the stylesheet without negatively impacting
+                                overall style</li>
+                            <li>Create advanced user interfaces using components like nestables</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="cons-list">
+                            <li>Very few resources out there due to relative newness</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Bootstrap</h4>
+      </div>
+      <div class="modal-body container-fluid">
+          <img src="images/bootstrap-icon.png" alt="Bootstrap icon" class="icon-modal">
+        <p class="desc-modal">This list would be woefully incomplete without the inclusion of the wildly popular front-end framework, Bootstrap. Created by Twitter developers and initially released in 2011, it’s the most used open-source framework in the world.</p>
+        <p>Like any effective front-end framework, Bootstrap includes CSS, HTML and JavaScript, or JS, components. It adheres to responsive web design standards, allowing you to develop responsive sites of all complexities and sizes.</p>
+        <p>Because it is updated continually, Bootstrap typically includes the latest and best features. For example, it added themes that met Google’s material design guidelines shortly after they were published, and it was also upgraded to use Sass as a CSS preprocessor.</p>
+        <div><a href="http://getbootstrap.com/"><span class="glyphicon  glyphicon-download-alt"></span> Download Bootstrap</a></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pure</h4>
+      </div>
+      <div class="modal-body container-fluid">
+          <img src="images/pure-icon.png" alt="Pure icon" class="icon-modal">
+
+        <p class="desc-modal">Created by the Yahoo development team, Pure comes with a lightweight array of CSS modules that can be used in just about any project. Using Pure, you can easily create responsive buttons, menus, grids, tables and other features. Because it is purely CSS based, however, it does not support JavaScript or JQuery plugins.</p>
+        <p>When minified and compressed with Gzip, Pure clocks in at just 4.5kB, making it one of the lightest and nimblest front end development frameworks out there. As a result, it is terrific for mobile website development, and many developers rely on it for precisely that.</p>
+        <div><a href="https://purecss.io/"><span class="glyphicon  glyphicon-download-alt"></span> Download Pure</a></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">UIKit</h4>
+      </div>
+      <div class="modal-body container-fluid">
+          <img src="images/uikit-icon.png" alt="UIKit icon" class="icon-modal">
+          <p class="desc-modal">UIKit is a highly modular front-end framework stands out among most front end development frameworks for many reasons. Chief among them is the fact that it includes both LESS and Sass CSS preprocessors.</p>
+        <p>Loaded with an array of nimble, responsive components with consistent naming conventions, UIKit has become one of the most popular front-end frameworks out there.</p>
+        <p>Its more than 30 extendable, modular components can be combined for even more versatility. It includes navigation components like side navigation bars; elements like HTML forms and tables; JavaScript components like off-canvas bars and modal dialogs; common elements like buttons, badges, and overlays; and layout components, including a fluid, completely responsive grid system.</p>
+
+        <div><a href="https://getuikit.com/"><span class="glyphicon  glyphicon-download-alt"></span> Download UIKit</a></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- Pabaiga: Namų darbas nr. 8 -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

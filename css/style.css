@@ -1,0 +1,28 @@
+th {
+  padding-left: 25px !important;
+  background-color: #d9edf6; }
+
+td {
+  padding: 25px !important; }
+
+ul {
+  padding-left: 10px; }
+
+.name-icon {
+  height: 55px;
+  margin-bottom: 27px;
+  font-size: 24px; }
+  .name-icon .icon-table {
+    height: 55px;
+    margin-right: 13px; }
+
+.modal-content {
+  width: 600px; }
+
+.icon-modal {
+  height: 95px;
+  margin-right: 25px;
+  float: left; }
+
+.desc-modal {
+  font-style: italic; }
